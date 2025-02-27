@@ -11,31 +11,31 @@ YAML code with metadata. It is important to get this part correct, because other
 generation will fail. The metadata looks like this:
 
 ```yaml
-title: 'BioHackEU22 Report for Project 26: Shedding the light on unknown chemical substances'
-title_short: 'BioHackEU22 #26: unknown chemical substances'
+title: 'BioHackEuro SWAT2025 Barcelona Report for Project 6: Automatic Ontology Mapping with LLMS'
+title_short: 'BioHackEU25 #6: Auto Ontology Mapping with AI'
 tags:
-  - cheminformatics
-  - PubChem
-  - unknown chemical substances
+  - ontology mapping
+  - SSSOM
+  - AI
 authors:
-  - name: Egon Willighagen
-    orcid: 0000-0001-7542-0286
+   - name: Mark Doerr
+    orcid: 0000-0003-3270-6895
     affiliation: 1
 affiliations:
-  - name: Dept of Bioinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, Maastricht, NL
+  - name: Dept of Biotechnology and Enzyme Catalysis,Inst. f. Biochemistry, University Greifswald, DE
     index: 1
-date: 7 November 2022
+date: 27 February 2025
 cito-bibliography: paper.bib
 event: BH22EU
-biohackathon_name: "BioHackathon Europe 2022"
+biohackathon_name: "BioHackathon Europe 2025"
 biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Paris, France, 2022"
-group: Unknown chemical substances group
+biohackathon_location: "Barcelona, Spain, 2025"
+group: ontology mapping group
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackrxiv/publication-template
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Egon Willighagen \emph{et al.}
+authors_short: Mark Doerr \emph{et al.}
 ```
 
 ### Which metadata to update?
